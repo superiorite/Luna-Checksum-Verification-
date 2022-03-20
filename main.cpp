@@ -25,8 +25,8 @@ int main()
 		if (position % 2 == 0)
 		{
 			oddLengthChecksum += doubleDigitValue(digit - '0'); // We do not know which numbers to multiply by 2, 
-			evenLengthChecksum += digit - '0';					        // but we calculate two options: for an even 
-		}														                          // number of numbers and an odd 
+			evenLengthChecksum += digit - '0';		// but we calculate two options: for an even 
+		}							 // number of numbers and an odd 
 		else 
 		{
 			oddLengthChecksum += digit - '0';
